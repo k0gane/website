@@ -5,8 +5,9 @@
         <meta charset="utf-8">
         <link rel="stylesheet" type="text/css" href="stylesheet.css">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
-        <script type="text/javascript" src="thanks.js"></script>
         <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+        <script type="text/javascript" src="thanks.js"></script>
+
     </head>
 
     <body>
@@ -20,9 +21,9 @@
         
 
   <div class="main">
-    <div id="form" class="contact-form">
+    <div id="form-main" class="contact-form">
       <div class="form-title">お問い合わせ</div>
-      <form method="post">
+      <form id="form" method="post">
         <div class="address">
           <label for="email">メールアドレス<br></label>
           <input id="email" type="text" name="entry.307426390" placeholder="example@mail.co.jp" required/>

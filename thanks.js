@@ -1,5 +1,5 @@
 $(document).ready(function () {
-    $("#googleform").submit(function (event) {
+    $("#form").submit(function (event) {
         
         var data = new FormData;
         
@@ -12,7 +12,7 @@ $(document).ready(function () {
         //お問い合わせ内容を取得
         data.append('entry.1011271364', $("#googleform input[name=msg]").val());
 
-
+        console.log(data);
  
         $.ajax({
             url: "https://docs.google.com/forms/d/e/1FAIpQLScvmbS1iM6JR6ou9lFaiwOKhjx4HBUOJqmdfybsmJ2-mCdthw/formResponse",
